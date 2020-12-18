@@ -11,11 +11,24 @@ public class CarInfo2 {
 	int price;
 	
 	public CarInfo2(){
+		company = "기아";
+		name = "아반떼";
+		gas = "가솔린";
+		type = "세단";
+		size = "준중형";
+		color = "블루";
+		price = 2779;
 		
 	}
 	
 	public CarInfo2(String carCompany){
 		company = carCompany;
+		name = "아반떼";
+		gas = "가솔린";
+		type = "세단";
+		size = "준중형";
+		color = "블루";
+		price = 2779;
 	}
 	
 	public CarInfo2(String carCompany, String carName, String carGas, 
@@ -28,15 +41,13 @@ public class CarInfo2 {
 		color = carColor;
 		price = carPrice;
 		
-		printer();
-		
 	}
 	
-	public void printer() {
+	public void getCarInfo() {
 		
 		System.out.println("회사명 : " + company + "\n모델명 : " + name + "\n연료종류 : " + gas
 				+ "\n차종류 : " + type + "\n크기 : " + size + "\n색상 : " + color + "\n가격 : " + price);
-		System.out.println("\n");
+		System.out.println("");
 	}
 	
 }
