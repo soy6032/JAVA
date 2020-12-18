@@ -7,6 +7,7 @@ public class Calculator10 {
 		return result;
 	}
 	
+	
 	public double plus(double x, double y) {
 		double result = x + y;
 		return result;

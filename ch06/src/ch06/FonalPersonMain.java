@@ -4,6 +4,7 @@ public class FonalPersonMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		FinalPerson fp1 = new FinalPerson("1234567-1234567", "ÀÌ¼ø½Å");
 		
 		System.out.println(fp1.nation);

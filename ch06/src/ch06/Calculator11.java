@@ -5,6 +5,7 @@ public class Calculator11 {
 	double x; 
 	double y; 
 	
+	
 	public Calculator11(int x, int y) {
 		this((double)x, (double)y);
 	}
