@@ -7,7 +7,7 @@ public class Earth {
 	static final double EARTH_SURFACE_AREA;
 	
 //	static 코드 블럭 : static 키워드를 사용한 정적 멤버들을 초기화하는데 사용하는 코드블럭
-//	static 키워드를 사용한 정적 멤버 전용 생성사라고 생각하면 됨 
+//	static 키워드를 사용한 정적 멤버 전용 생성사라고 생각하면 됨.
 	static {
 		EARTH_SURFACE_AREA = 4 * Math.PI * EARTH_RADIUS * EARTH_RADIUS;
 	}
