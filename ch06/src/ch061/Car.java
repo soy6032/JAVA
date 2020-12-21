@@ -6,6 +6,8 @@ public class Car {
 	private int speed;
 	private boolean stop;
 	
+	
+	
 	public int getSpeed() {
 //		멤버변수인 speed를 제약없이 사용
 		return speed;
