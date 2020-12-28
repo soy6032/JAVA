@@ -1,18 +1,24 @@
 
-public class Circle {
+
+public class Circle{
+	String name;
 	int radius;
-	double pi = Math.PI;
+
+	public Circle() {
+		radius = 1;
+		name = "";
+	}
 	
-	
-	 
-	 
-	public Circle(int radius) {
-        this.radius = radius;
+	public Circle(int r, String n) {
+		this.radius = r;
+		this.name = n;
     }
 	
-	public void area() {
-	     System.out.println("¿øÀÇ ³ÐÀÌ : " + pi * radius * radius);
+	public double getArea() {
+	    double result = 3.14 * radius * radius;
+	    return result;
 	}
 	
 	
 }
+

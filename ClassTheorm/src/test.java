@@ -1,33 +1,37 @@
+class ConstructorExample {
+	int x;
 
-
-class TV {
-    private int size;
-    private String manufacturer;
-    public TV() {
-        size = 32;
-        manufacturer = "LG";
-        System.out.println(size + "인치 " + manufacturer);
-    }
-    public TV(String manufacturer) {
-        this.size = 32;
-        this.manufacturer = manufacturer;
-        System.out.println(size + "인치 " + manufacturer);
-    }
-    public TV(int size, String manufacturer) {
-        this.size = size;
-        this.manufacturer = manufacturer;
-        System.out.println(size + "인치 " + manufacturer);
-    }
-}
-
-public class test {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		TV tv = new TV(65,"상섬");
-		
-		
+	public void setX(int x) {
+		this.x = x;
 	}
 
+	public int getX() {
+		return x;
+	}
+
+	public ConstructorExample(int x) {
+		this.x = x;
+	}
+
+	public static void main(String[] args) {
+		ConstructorExample a = new ConstructorExample(0);
+		int n = a.getX();
+	}
+}
+
+
+class Samp {
+	
+	int id;
+
+	public Samp(int x) {
+		this.id = x;
+	}
+	
+	public Samp() {
+		this(0);
+		System.out.println("생성자호출");
+		
+	}
+	
 }

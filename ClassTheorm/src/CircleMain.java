@@ -6,12 +6,15 @@ public class CircleMain {
 
 		
 		
-		Circle pizza = new Circle(2);
-		pizza.area();
+		Circle pizza = new Circle(10, "자바 피자");
 		
-		Circle donut = new Circle(3);
-		donut.area();
+		double area = pizza.getArea();
+		System.out.println(pizza.name + "의 면적은 " + area);
 		
+		Circle donut = new Circle();
+		donut.name = "도넛";
+		area = donut.getArea();
+		System.out.println(donut.name + "의 면적은 " + area);
 		
 		
 	}
