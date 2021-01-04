@@ -8,7 +8,7 @@ public class Person {
 	public String email;
 	
 	public void getinfo() {
-		System.out.println("이름 : " + name + "\n나이 : " + age + "\n성별" + gender + "\n이메일 : " + email);
+		System.out.println("이름 : " + name + "\n나이 : " + age + "\n성별 : " + gender + "\n이메일 : " + email);
 	}
 	
 
