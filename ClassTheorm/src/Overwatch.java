@@ -3,6 +3,7 @@ public class Overwatch {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//다형성
 		Player p = new Player();
 		
 		Triser t = new Triser();
